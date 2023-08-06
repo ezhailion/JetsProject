@@ -1,0 +1,5 @@
+Passenger,Cessna 172,75,250,23000
+Fighter,Borg Cube,100,10,234567
+Starship,USS Enterprise NCC1701-D,10000,20000,765432
+Fighter,Romulan Warbird,100,10,234567
+Starship,Dark Star,10000,20000,765432

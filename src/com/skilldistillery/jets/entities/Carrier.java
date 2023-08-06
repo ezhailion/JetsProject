@@ -1,16 +1,25 @@
 package com.skilldistillery.jets.entities;
 
-public class Carrier extends Jets {
+public class Carrier extends Jets implements CargoBoi {
 
-	public Carrier(String model, double speed, int range, double price) {
-		super(model, speed, range, price);
-		// TODO Auto-generated constructor stub
+	public Carrier(String model, String name, double speed, int range, double price) {
+		super(model, name, speed, range, price);
+	}
+
+	public Carrier() {
 	}
 
 	@Override
 	public void fly() {
-		// TODO Auto-generated method stub
-		
+		double flightTime = (getRange() / getSpeed());
+		System.out.println(this.getClass().getSimpleName() + ": \n" + " Name: " + getName() + "\n Speed: " + getSpeed()
+				+ "\n Range: " + getRange() + "\n Price: " + getPrice());
+		System.out.println(this.getClass().getSimpleName() + " will fly for " + (int)flightTime + " hours!");
+	}
+
+	@Override
+	public void loadCargo() {
+		System.out.println("Loading Cargo...");
 	}
 
 }

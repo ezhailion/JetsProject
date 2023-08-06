@@ -1,0 +1,11 @@
+Passenger,Java Chicken,10.8,80,250
+Fighter,Polish Chicken,15,50,500
+Carrier,Orpington Chicken,12,30,150
+Carrier,Brahma Chicken,30,10,250
+Fighter,Master Grey Chicken,21,15,235
+Fighter,Leghorn Chicken,16,18,200
+Passenger,Frizzle Chicken,20,52,561
+Fighter,Rhode Island Red,5,30,150
+Carrier,Swedish Flower Hen,5,20,500
+Fighter,Indian Giant,35,20,800
+Passenger, Java Chicken,12,85,250
